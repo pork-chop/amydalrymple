@@ -1,0 +1,31 @@
+html {
+	font-family: $font-family-sans;
+	font-weight: 300;
+}
+
+fieldset {
+	border: 0;
+	padding: 0;
+	
+	textarea {
+		width: 96%;
+	}
+}
+
+#message { padding: 0 1em; border: 2px solid $color-shadow; }
+
+input[type="submit"] {
+	border: 2px solid $color-shadow;
+	background: $midnight-blue;
+	color: $white;
+	margin: 0 0 1rem 0;
+	padding: .6rem 1rem;
+	
+	&:hover, &:focus {
+		background: $color-link-hover;
+	}
+}
+
+/* misc */
+.left { float: left; }
+.right { float: right; }

@@ -1,0 +1,266 @@
+@charset "utf-8";
+@import url("http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700");
+/** CSS layout debugging @link http://pesticide.io/ @type boolean */
+/** Define width for browsers w/out media query support @link http://jakearchibald.github.com/sass-ie/ @type boolean */
+/** Turn on/off IE specific styles @link http://jakearchibald.github.com/sass-ie/ @type boolean */
+/** Base font size in used in _mixins.scss @type number */
+/** Base line-height in used in _mixins.scss @type number */
+/** (optional) URL for Google Fonts import @type string */
+/** (optional) names of webfonts imports @type array */
+/* $fonts                     : 'FONTNAME', 'FONTNAME', 'FONTNAME', 'FONTNAME'; */
+/** define font stack used for sans-serifs @type string */
+/** define font stack used for serifs @type string */
+/** define font stack used for monospaced copy @type string */
+/** define font stack used for headings @requires {variable} $font-family-serif @type string */
+/** define font stack used for paragraphs @requires {variable} font-family-sans @type string */
+/* Font Weights ============ */
+/* Breakpoints There are no common breakpoints; examples based on the official Sass styleguide You'll need to define your own breakpoints to suit your design ============*/
+/** Define z-indexes for various elements @link http://www.sitepoint.com/using-sass-maps/ @type number */
+/* z-index reference */
+/* 
+$zindex: ( modal                       : 9000, overlay                     : 8000, dropdown                    : 7000, header                      : 6000, footer                      : 5000
+); */
+/** px to em conversion @link http://www.pjmccormick.com/sweet-sass-function-convert-px-em @requires {variable} $base-font-size @param {number} $target - size to convert @param {number} $context ($base-font-size) - context conversion is based on @example scss .foobar { padding-bottom: em(30); } @returns {number} */
+/** px to rem @link http://www.pjmccormick.com/sweet-sass-function-convert-px-em @requires {variable} $base-font-size @param {number} $target - size to convert @param {number} $context ($base-font-size) - context conversion is based on @example scss .foobar { padding-bottom: rem(30); } @returns {number} */
+/** em to px conversion @link http://www.pjmccormick.com/sweet-sass-function-convert-px-em @requires {variable} $base-font-size @param {number} $target - size to convert @param {number} $context ($base-font-size) - context conversion is based on @example scss .foobar { padding-bottom: px(30); } @returns {number} */
+/** Aspect Ratio @param {number} $ratio-numerator - ratio numerator @param {number} $ratio-denominator - ratio denominator @example scss .foobar { padding-bottom: aspect-ratio(16,9); } // @returns 56.25% @returns {number} */
+/** Aspect Ratio Based on Fixed Image Dimensions @param {number} $w - image width @param {number} $h - image height @example scss .foobar { padding: 0 0 aspect-ratio-fixed(1080, 720); } // @returns 66.666666666667% @returns {number} */
+/** Context Calculator @param {number} $target @param {number} $context @example scss .foobar { padding-bottom: context-calc(30,15); } @returns {number} */
+/** Strip Unit Values @link http://hugogiraudel.com/2013/08/12/sass-functions @param {string} $num @example scss .foobar { padding-bottom: strip-unit(30px); } @returns {number} */
+/** SMACSS Theming @example scss .foobar { background: #ff3377; @include theme(beccapurple){ background: #663399; } } @param {String} $name - theme name */
+/** Buttons This customises your buttons with a different background color and text color. If no text color is specified it will default to white. @param {String} $color-background - background color @param {String} $color-text (#fff) - text color @example scss .foobar { @include btn(#f37) { ... } } */
+/** Media Queries Allows you to use inline media queries. @link http://jakearchibald.github.com/sass-ie/ @param {String} $breakpoint - breakpoint @param {String} $query (min-width) - query type @param {String} $type (screen) - media type @example scss .foobar { @include mq(20em) { ... } } */
+/** IE Specific Styles @example scss .foobar { .lt-ie8 & { @include old-ie { ... } } .lt-ie9 & { @include old-ie { ... } } } */
+/** Sass version of Sticky Footer by Ryan Fait @link http://ryanfait.com/sticky-footer/ @param {String} $footer_height - height of footer including padding or borders @param {String} $root_selector (.site) - main wrapper element @param {String} $root_footer_selector (.push) - hidden element that "pushes" down the footer @param {String} $footer_selector (footer) - footer element @example scss .foobar { @include sticky-footer(4em) { ... } } */
+/** Fullscreen Background for < IE8 @link http://css-tricks.com/perfect-full-page-background-image/ @example scss .foobar { @include fullscreen-bg() { ... } } */
+/** @param {number} $opacity @example scss .foobar { @include opacity(4) { ... } } */
+/** @link http://bit.ly/thoughtbot-bourbon-inline-block @require {mixin} old-ie @param {String} $alignment (baseline) @example scss .foobar { @include inline-block() { ... } } */
+/** Retina Displays @param {String} $image - image url @param {String} $width - image width @param {String} $height - image height @example scss .foobar { @include image-2x('img/logo.png', 200px, 300px) { ... } } */
+/** RGBA Fallback @param {String} $color @param {String} $percent @example scss .foobar { @include rgba-bg(#f37,.9) { ... } } */
+/* line 8, scss/base/_normalize.scss */
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+/* line 16, scss/base/_normalize.scss */
+body { margin: 0; }
+
+/* line 37, scss/base/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+
+/* line 48, scss/base/_normalize.scss */
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+/* line 57, scss/base/_normalize.scss */
+audio:not([controls]) { display: none; height: 0; }
+
+/* line 67, scss/base/_normalize.scss */
+[hidden], template { display: none; }
+
+/* line 75, scss/base/_normalize.scss */
+a { background: transparent; }
+
+/* line 83, scss/base/_normalize.scss */
+a:active, a:hover { outline: 0; }
+
+/* line 91, scss/base/_normalize.scss */
+abbr[title] { border-bottom: 1px dotted; }
+
+/* line 99, scss/base/_normalize.scss */
+b, strong { font-weight: bold; }
+
+/* line 106, scss/base/_normalize.scss */
+dfn { font-style: italic; }
+
+/* line 114, scss/base/_normalize.scss */
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+/* line 122, scss/base/_normalize.scss */
+mark { background: #ff0; color: #000; }
+
+/* line 130, scss/base/_normalize.scss */
+small { font-size: 80%; }
+
+/* line 138, scss/base/_normalize.scss */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+/* line 145, scss/base/_normalize.scss */
+sup { top: -0.5em; }
+
+/* line 149, scss/base/_normalize.scss */
+sub { bottom: -0.25em; }
+
+/* line 157, scss/base/_normalize.scss */
+img { border: 0; }
+
+/* line 164, scss/base/_normalize.scss */
+svg:not(:root) { overflow: hidden; }
+
+/* line 172, scss/base/_normalize.scss */
+figure { margin: 1em 40px; }
+
+/* line 179, scss/base/_normalize.scss */
+hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+
+/* line 188, scss/base/_normalize.scss */
+pre { overflow: auto; }
+
+/* line 198, scss/base/_normalize.scss */
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+/* line 218, scss/base/_normalize.scss */
+button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0; }
+
+/* line 227, scss/base/_normalize.scss */
+button { overflow: visible; }
+
+/* line 238, scss/base/_normalize.scss */
+button, select { text-transform: none; }
+
+/* line 252, scss/base/_normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+
+/* line 261, scss/base/_normalize.scss */
+button[disabled], html input[disabled] { cursor: default; }
+
+/* line 269, scss/base/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/* line 278, scss/base/_normalize.scss */
+input { line-height: normal; }
+
+/* line 290, scss/base/_normalize.scss */
+* input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+
+/* line 301, scss/base/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+/* line 310, scss/base/_normalize.scss */
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+/* line 323, scss/base/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/* line 330, scss/base/_normalize.scss */
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+/* line 340, scss/base/_normalize.scss */
+legend { border: 0; padding: 0; }
+
+/* line 348, scss/base/_normalize.scss */
+textarea { overflow: auto; }
+
+/* line 356, scss/base/_normalize.scss */
+optgroup { font-weight: bold; }
+
+/* line 364, scss/base/_normalize.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 370, scss/base/_normalize.scss */
+td, th { padding: 0; }
+
+/* line 1, scss/base/_base.scss */
+html { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; }
+
+/* line 6, scss/base/_base.scss */
+fieldset { border: 0; padding: 0; }
+/* line 10, scss/base/_base.scss */
+fieldset textarea { width: 96%; }
+
+/* line 15, scss/base/_base.scss */
+#message { padding: 0 1em; border: 2px solid rgba(0, 0, 0, 0.125); }
+
+/* line 17, scss/base/_base.scss */
+input[type="submit"] { border: 2px solid rgba(0, 0, 0, 0.125); background: #003366; color: white; margin: 0 0 1rem 0; padding: .6rem 1rem; }
+/* line 24, scss/base/_base.scss */
+input[type="submit"]:hover, input[type="submit"]:focus { background: #b37399; }
+
+/* misc */
+/* line 30, scss/base/_base.scss */
+.left { float: left; }
+
+/* line 31, scss/base/_base.scss */
+.right { float: right; }
+
+/*********************
+LARGER MOBILE DEVICES
+This is for devices like the Galaxy Note or something that's
+larger than an iPhone but smaller than a tablet. Let's call them
+tweeners.
+*********************/
+@media only screen and (min-width: 550px) { /****************************************************************** Stylesheet: 550px and Up Stylesheet *****************************************************************/
+  /* line 5, scss/base/_550.scss */
+  .twocolumns { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-gap: 4em; -moz-column-gap: 4em; column-gap: 4em; -webkit-column-rule: 1px dashed rgba(0, 0, 0, 0.125); -moz-column-rule: 1px dashed rgba(0, 0, 0, 0.125); column-rule: 1px dashed rgba(0, 0, 0, 0.125); }
+  /* line 16, scss/base/_550.scss */
+  .twocolumns li { -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid-column; } }
+/* navigation */
+/* line 12, scss/layout/_index.scss */
+header, footer { text-align: center; color: white; }
+
+/* line 17, scss/layout/_index.scss */
+header { background: #003366; padding-bottom: 1rem; }
+/* line 21, scss/layout/_index.scss */
+header nav { background: black; padding: 1rem 0; margin-bottom: 1rem; }
+/* line 28, scss/layout/_index.scss */
+header nav ul li { display: inline-block; padding-left: 1rem; }
+/* line 32, scss/layout/_index.scss */
+header nav ul li:first-child { padding-left: 0; }
+/* line 37, scss/layout/_index.scss */
+header img { width: 80%; max-width: 160px; }
+
+/* line 43, scss/layout/_index.scss */
+main { width: 90%; max-width: 700px; margin: 0 auto; }
+/* line 50, scss/layout/_index.scss */
+main dl dt { font-weight: 700; margin: 1rem 0; }
+/* line 54, scss/layout/_index.scss */
+main dl dt:first-child { margin-top: 0; }
+/* line 57, scss/layout/_index.scss */
+main dl dd { border: 1px dashed #669999; margin: -1rem 0 0 0; padding: 10px; }
+/* line 66, scss/layout/_index.scss */
+main ul li { list-style-type: none; margin: 0 0 .6rem 0; text-indent: -20px; padding-left: 20px; }
+/* line 74, scss/layout/_index.scss */
+main img { display: block; margin: .5rem 0; width: 100%; }
+
+/* line 81, scss/layout/_index.scss */
+footer { background: rgba(0, 0, 0, 0.125); font-size: .8rem; padding: .6rem 0; }
+
+/* line 25, scss/utilities/_fonts.scss */
+h1, h2, h3 { font-family: "Alegreya", Georgia, "Times New Roman", Times, serif; }
+
+/* line 29, scss/utilities/_fonts.scss */
+h2, h4 { font-weight: 400; }
+
+/* line 33, scss/utilities/_fonts.scss */
+h3 { border-bottom: 1px dashed rgba(0, 0, 0, 0.125); }
+
+/* line 37, scss/utilities/_fonts.scss */
+a { color: #cc6699; text-decoration: none; }
+/* line 41, scss/utilities/_fonts.scss */
+a:hover, a:focus { color: #b37399; border-bottom: 1px dashed; }
+
+/* line 47, scss/utilities/_fonts.scss */
+ul { margin: 0; padding: 0; }
+/* line 51, scss/utilities/_fonts.scss */
+ul li { margin: 0 0 .6rem 0; }
+
+@media print { /* line 7, scss/states/_print.scss */
+  * { background: transparent !important; color: #000 !important; box-shadow: none !important; text-shadow: none !important; }
+  /* line 15, scss/states/_print.scss */
+  a, a:visited { text-decoration: underline; }
+  /* line 19, scss/states/_print.scss */
+  a[href]:after { content: " (" attr(href) ")"; }
+  /* line 23, scss/states/_print.scss */
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  /* line 33, scss/states/_print.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  /* line 38, scss/states/_print.scss */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  /* line 43, scss/states/_print.scss */
+  thead { display: table-header-group; }
+  /* line 48, scss/states/_print.scss */
+  tr, img { page-break-inside: avoid; }
+  /* line 52, scss/states/_print.scss */
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  /* line 62, scss/states/_print.scss */
+  p, h2, h3 { orphans: 3; widows: 3; }
+  /* line 68, scss/states/_print.scss */
+  h2, h3 { page-break-after: avoid; } }
