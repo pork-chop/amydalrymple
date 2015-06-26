@@ -62,55 +62,72 @@
 
 		<h3><a id="work"></a>Recent Work <small class="right"><a href="#top">return to top</a></small></h3>
 		<dl class="works">
+			<dt><a href="http://americanpublicmediagroup.org" target="_blank">American Public Media Group</a> website</dt>
+			<dd>
+				<img src="/img/work_apmg.png" alt="American Public Media Group website">
+				Launched: June 2016<br>
+				Role: Front-End Developer<br>
+				Specs: Rails, Sass</dd>
+
 			<dt><a href="http://americanpublicmedia.org" target="_blank">American Public Media</a> website</dt>
 			<dd>
 				<img src="/img/work_apm.png" alt="American Public Media website">
 				Launched: December 2014<br>
-				Role: Designer, Developer</dd>
+				Role: Designer, Developer<br>
+				Specs: Wordpress, Sass, Custom Theme</dd>
 
 			<dt><a href="http://writersalmanac.org" target="_blank">The Writer's Almanac</a> website</dt>
 			<dd>
 				<img src="/img/work_twa.png" alt="The Writer's Alamanac website">
 				Launched: November 2014<br>
-				Role: Designer, Developer</dd>
+				Role: Developer<br>
+				Specs: Wordpress, Sass, Custom Theme</dd>
 
 			<dt><a href="http://mpr.org" target="_blank">MPR.org</a> homepage</dt>
 			<dd>
 				<img src="/img/work_mpr.png" alt="MPR.org homepage">
 				Launched: October 2014<br>
-				Role: Designer, Developer</dd>
+				Role: Designer, Developer<br>
+				Specs: PHP, Sass</dd>
 
 			<dt><a href="http://www.publicradiocustomtravel.org/" target="_blank">Public Radio Custom Travel</a> website</dt>
 			<dd>
 				<img src="/img/work_prct.png" alt="Public Radio Custom Travel website">
 				Launched: September 2014<br>
-				Role: Designer, Developer</dd>
+				Role: Designer, Developer<br>
+				Specs: PHP, Sass</dd>
 
 			<dt><a href="http://prairiehome.org" target="_blank">A Prairie Home Companion</a> website</dt>
 			<dd>
 				<img src="/img/work_aphc.png" alt="A Prairie Home Companion website">
 				Launched: June 2014<br>
-				Role: Designer, Tech Lead</dd>
+				Role: Designer, Tech Lead<br>
+				Specs: Wordpress, Genesis Theme, Sass</dd>
 
 			<dt><a href="http://topcoast.mprnews.org/">Top Coast Festival</a> website</dt>
 			<dd>
 				<img src="/img/work_topcoast.png" alt="Top Coast Festival website">
 				Launched: January 2014<br>
-				Role: Designer, Developer</dd>
+				Role: Designer, Developer<br>
+				Specs: PHP</dd>
 
 			<dt><a href="https://www.solutran.com/s3healthysavings/" target="_blank">S3 Healthy Savings webpage</a></dt>
 			<dd>
 				<img src="/img/work_s3health.png" alt="S3 Healthy Savings webpage">
 				Launched: 2013<br>
-				Role: Developer</dd>
+				Role: Developer<br>
+				Specs: .NET, Javascript</dd>
 		</dl>
 
 		<h3><a id="experience"></a>Experience <small class="right"><a href="#top">return to top</a></small></h3>
 		
 		<h4>Work History</h4>
 		<ul class="twocolumns">
+			<li>tena.cious<br>
+				<small>Web Developer<br>June 2015&ndash;current</small></li>
+			
 			<li>Minnesota Public Radio<br>
-				<small>Digital Designer/Developer<br>December 2013&ndash;current</small></li>
+				<small>Digital Designer/Developer<br>December 2013&ndash;June 2015</small></li>
 			
 			<li>Gage Marketing<br>
 				<small>Front-End Developer<br>November 2011&ndash;November 2013</small></li>
@@ -126,7 +143,7 @@
 			<dt><h4>Skills</h4></dt>
 			<dd>
 				<ul>
-					<li>HTML5, CSS/Sass, JavaScript (jQuery), PHP, ASP.NET, MVC, XAML/C#</li>
+					<li>HTML5, CSS/Sass, JavaScript (jQuery), PHP, ASP.NET, Rails, MVC, XAML/C#</li>
 					<li>CMS systems (Wordpress, Sitefinity)</li>
 					<li>Responsive HTML email (Eloqua, ExactTarget, MailChimp, Litmus)</li>
 					<li>Adobe Creative Suite CC (Photoshop, Illustrator, Dreamweaver, and InDesign)</li>
