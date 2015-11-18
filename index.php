@@ -143,11 +143,11 @@
 			<dt><h4>Skills</h4></dt>
 			<dd>
 				<ul>
-					<li>HTML5, CSS/Sass, JavaScript (jQuery), PHP, ASP.NET, Rails, MVC, XAML/C#</li>
-					<li>CMS systems (Wordpress, Sitefinity)</li>
+					<li>HTML5, CSS/Sass, JavaScript (jQuery), PHP, ASP.NET, Liquid, Rails, MVC, XAML/C#</li>
+					<li>CMS systems (Wordpress, Sitefinity, Shopify, Memberize)</li>
 					<li>Responsive HTML email (Eloqua, ExactTarget, MailChimp, Litmus)</li>
 					<li>Adobe Creative Suite CC (Photoshop, Illustrator, Dreamweaver, and InDesign)</li>
-					<li>BBEdit/TextWrangler</li>
+					<li>Sublime Text, BBEdit/TextWrangler</li>
 					<li>Github/Gitlab, SVN</li>
 					<li>Visual Studio 2008&ndash;2012, Blend for Visual Studio 2012</li>
 					<li>Microsoft Office Suite (Outlook/Entourage, Word, Excel, and PowerPoint)</li>
@@ -180,6 +180,10 @@
 
 		<h4>Continued Education</h4>
 		<ul class="twocolumns">
+			<li>Minnesota Blogger Conference<br>
+				<small>Fall 2015<br>Saint Paul, Minnesota</small></li>
+			<li>CSSDevConf <em>(volunteer)</em><br>
+				<small>Fall 2015<br>Long Beach, California</small></li>
 			<li>MinneWebCon<br>
 				<small>Spring 2015<br>Minneapolis, Minnesota</small></li>
 			<li>Wordpress Summit<br>
@@ -222,7 +226,7 @@
 		<p>Amy lives in Minneapolis, Minnesota with her husband and their three cats (Siofra, Ellipses, and Ampersand). She enjoys knitting and photography. She craves new adventures. She speaks a little bit of German.</p>
 		<p>Amy <a href="https://twitter.com/@pork_chop">prefers Twitter</a> over Facebook and has <a href="http://pork-chop.org/">an infrequently updated blog</a>.</p>
 
-		<h3><a id="contact"></a>Get in Touch <small class="right"><a href="#top">return to top</a></small></h3>
+		<!--<h3><a id="contact"></a>Get in Touch <small class="right"><a href="#top">return to top</a></small></h3>
 		
 		<form id="contactform" name="contact" action="contact.php" method="post">
 			<fieldset>
@@ -237,7 +241,7 @@
 			<label class="error" for="more-info" id="message_error">Please add a message.</label>
 
 			<input type="submit" value="Send your message!" name="sendit" class="contactAmy" id="btn-submit" />
-		</form>
+		</form>-->
 
 	</main>
 	
