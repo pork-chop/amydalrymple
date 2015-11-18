@@ -49,7 +49,7 @@
 		
 		<nav class="cf">
 			<ul class="fullmenu">
-				<li><a href="#work">Work</a></li><li><a href="#experience">Experience</a></li><li><a href="#more">More</a></li><li><a href="#contact">Contact</a></li>
+				<li><a href="#work">Work</a></li><li><a href="#experience">Experience</a></li><li><a href="#more">More</a></li><!--<li><a href="#contact">Contact</a></li>-->
 			</ul>
 		</nav>
 	
