@@ -20,6 +20,7 @@
 
     <title>Amy Dalrymple | Digital Designer/Developer | Minneapolis, MN</title>
 	<meta name="description" content="Amy Dalrymple is a digital designer/developer from Minneapolis, MN." />
+	<meta name="keywords" content="front-end, front end, developer, development, website, minneapolis, digital, interactive, designer" />	
 
      <!-- Twitter Card data -->
     <meta name="twitter:card" value="summary">
@@ -60,7 +61,7 @@
 	
 	<main id="content">
 
-		<h3><a id="work"></a>Recent Work <small class="right"><a href="#top">return to top</a></small></h3>
+		<h3><a id="work"></a>Previous Work <small class="right"><a href="#top">return to top</a></small></h3>
 		<dl class="works">
 			<dt><a href="http://americanpublicmediagroup.org" target="_blank">American Public Media Group</a> website</dt>
 			<dd>
@@ -123,8 +124,11 @@
 		
 		<h4>Work History</h4>
 		<ul class="twocolumns">
+			<li>JT Mega<br>
+				<small>Front-End Developer<br>April 2017&ndash;current</small></li>
+			
 			<li>tena.cious<br>
-				<small>Web Developer<br>June 2015&ndash;current</small></li>
+				<small>Website Programmer &amp; Analyst<br>June 2015&ndash;April 2017</small></li>
 			
 			<li>Minnesota Public Radio<br>
 				<small>Digital Designer/Developer<br>December 2013&ndash;June 2015</small></li>
@@ -143,13 +147,13 @@
 			<dt><h4>Skills</h4></dt>
 			<dd>
 				<ul>
-					<li>HTML5, CSS/Sass, JavaScript (jQuery), PHP, ASP.NET, Liquid, Rails, MVC, XAML/C#</li>
+					<li>HTML5, CSS/Sass, JavaScript (jQuery), PHP, ASP.NET, Liquid</li>
 					<li>CMS systems (Wordpress, Sitefinity, Shopify, Memberize)</li>
 					<li>Responsive HTML email (Eloqua, ExactTarget, MailChimp, Litmus)</li>
 					<li>Adobe Creative Suite CC (Photoshop, Illustrator, Dreamweaver, and InDesign)</li>
 					<li>Sublime Text, BBEdit/TextWrangler</li>
-					<li>Github/Gitlab, SVN</li>
-					<li>Visual Studio 2008&ndash;2012, Blend for Visual Studio 2012</li>
+					<li>Github</li>
+					<li>Apple iWork Suite (Pages, Numbers, Keynote)
 					<li>Microsoft Office Suite (Outlook/Entourage, Word, Excel, and PowerPoint)</li>
 				</ul>
 			</dd>
@@ -157,6 +161,11 @@
 
 		<h4>Speaking Engagements</h4>
 		<ul class="twocolumns">
+			<li>MinneWebCon<br>
+				<small>Spring 2017<br>
+				Minneapolis, Minnesota<br>
+				Topic: It's Not Magic, It's SEO</small></li>
+
 			<li>MIMA Summit<br>
 				<small>Fall 2014<br>
 				Minneapolis, Minnesota<br>
@@ -180,6 +189,14 @@
 
 		<h4>Continued Education</h4>
 		<ul class="twocolumns">
+			<li>Social Media Breakfast<br>
+				<small><em>All Things Instagram</em><br>Fall 2016<br>Minneapolis, Minnesota</small></li>
+			<li>Minnesota Blogger Conference<br>
+				<small>Fall 2016<br>Saint Paul, Minnesota</small></li>
+			<li>the before. conference<br>
+				<small>Spring 2016<br>Saint Paul, Minnesota</small></li>
+			<li>MinneWebCon<br>
+				<small>Spring 2016<br>Minneapolis, Minnesota</small></li>
 			<li>Minnesota Blogger Conference<br>
 				<small>Fall 2015<br>Saint Paul, Minnesota</small></li>
 			<li>CSSDevConf <em>(volunteer)</em><br>
@@ -224,7 +241,7 @@
 
 		<h3><a id="more"></a>Learn More <small class="right"><a href="#top">return to top</a></small></h3>
 		<p>Amy lives in Minneapolis, Minnesota with her husband and their three cats (Siofra, Ellipses, and Ampersand). She enjoys knitting and photography. She craves new adventures. She speaks a little bit of German.</p>
-		<p>Amy <a href="https://twitter.com/@pork_chop">prefers Twitter</a> over Facebook and has <a href="http://pork-chop.org/">an infrequently updated blog</a>.</p>
+		<p>Amy <a href="https://twitter.com/@pork_chop">prefers Twitter</a> over Facebook and has <a href="http://pork-chop.org/">an infrequently updated blog</a>. She's also available for connections on <a href="linkedin.com/in/amydalrymple">LinkedIn</a>.</p>
 
 		<!--<h3><a id="contact"></a>Get in Touch <small class="right"><a href="#top">return to top</a></small></h3>
 		
