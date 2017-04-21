@@ -50,7 +50,7 @@
 		
 		<nav class="cf">
 			<ul class="fullmenu">
-				<li><a href="#work">Work</a></li><li><a href="#experience">Experience</a></li><li><a href="#more">More</a></li><!--<li><a href="#contact">Contact</a></li>-->
+				<li><a href="#work">Work</a></li><li><a href="#experience">Experience</a></li><li><a href="#education">Education</a></li><li><a href="#more">Learn More</a></li><li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	
@@ -63,15 +63,15 @@
 
 		<h3><a id="work"></a>Previous Work <small class="right"><a href="#top">return to top</a></small></h3>
 		<dl class="works">
-			<dt><a href="http://americanpublicmediagroup.org" target="_blank">American Public Media Group</a> website</dt>
-			<dd>
+			<dt style="display: none;"><a href="http://americanpublicmediagroup.org" target="_blank">American Public Media Group</a> website</dt>
+			<dd style="display: none;>
 				<img src="/img/work_apmg.png" alt="American Public Media Group website">
 				Launched: June 2016<br>
 				Role: Front-End Developer<br>
 				Specs: Rails, Sass</dd>
 
-			<dt><a href="http://americanpublicmedia.org" target="_blank">American Public Media</a> website</dt>
-			<dd>
+			<dt style="display: none;><a href="http://americanpublicmedia.org" target="_blank">American Public Media</a> website</dt>
+			<dd style="display: none;>
 				<img src="/img/work_apm.png" alt="American Public Media website">
 				Launched: December 2014<br>
 				Role: Designer, Developer<br>
@@ -98,7 +98,7 @@
 				Role: Designer, Developer<br>
 				Specs: PHP, Sass</dd>
 
-			<dt><a href="http://prairiehome.org" target="_blank">A Prairie Home Companion</a> website</dt>
+			<dt>A Prairie Home Companion website</dt>
 			<dd>
 				<img src="/img/work_aphc.png" alt="A Prairie Home Companion website">
 				Launched: June 2014<br>
@@ -182,7 +182,7 @@
 				Topic: Front-End Development for Back-End Developers</small></li>
 		</ul>
 		
-		<h4>Education</h4>
+		<h3><a id="education"></a>Education <small class="right"><a href="#top">return to top</a></small></h3>
 		<p>University of Minnesota, Twin Cities<br>
 			May 2004<br>
 			German Studies, BA</p>
@@ -193,10 +193,12 @@
 				<small><em>All Things Instagram</em><br>Fall 2016<br>Minneapolis, Minnesota</small></li>
 			<li>Minnesota Blogger Conference<br>
 				<small>Fall 2016<br>Saint Paul, Minnesota</small></li>
-			<li>the before. conference<br>
-				<small>Spring 2016<br>Saint Paul, Minnesota</small></li>
+			<li>WordCamp Minneapolis<br>
+				<small>Spring 2016<br>Minneapolis, Minnesota</small></li>
 			<li>MinneWebCon<br>
 				<small>Spring 2016<br>Minneapolis, Minnesota</small></li>
+			<li>the before. conference<br>
+				<small>Spring 2016<br>Saint Paul, Minnesota</small></li>
 			<li>Minnesota Blogger Conference<br>
 				<small>Fall 2015<br>Saint Paul, Minnesota</small></li>
 			<li>CSSDevConf <em>(volunteer)</em><br>
@@ -239,15 +241,18 @@
 				<small>Summer 2007<br>Victoria, British Columbia, Canada<br><em>Advanced Photoshop Techniques with Ben Willmore</em></small></li>
 		</ul>
 
-		<h3><a id="more"></a>Learn More <small class="right"><a href="#top">return to top</a></small></h3>
-		<p>Amy lives in Minneapolis, Minnesota with her husband and their three cats (Siofra, Ellipses, and Ampersand). She enjoys knitting and photography. She craves new adventures. She speaks a little bit of German.</p>
-		<p>Amy <a href="https://twitter.com/@pork_chop">prefers Twitter</a> over Facebook and has <a href="http://pork-chop.org/">an infrequently updated blog</a>. She's also available for connections on <a href="linkedin.com/in/amydalrymple">LinkedIn</a>.</p>
+		<h3><a id="more"></a><a id="more"></a>Learn More <small class="right"><a href="#top">return to top</a></small></h3>
+		<p>Amy lives in Minneapolis, Minnesota with her husband and their three cats (Siofra, Ellipses, and Ampersand). She enjoys knitting, photography, and new adventures. She can still speak a little bit of German.</p>
+		<p>Amy is a self-motivated and adaptable front-end web developer. She strives to learn something new every day. Her passion is in building standards-compliant and modern websites that provide the best experience for any potential user. She always feels like a genius when she can get a tricky bit of JavaScript to work the way she wants, but she gets the most geeky about how amazing CSS is.
+		<p>Amy <a href="https://twitter.com/pork_chop">prefers Twitter</a> over Facebook and has <a href="http://pork-chop.org/blog/">an infrequently updated blog</a>. She can also be <a href="https://www.linkedin.com/in/amydalrymple">found on LinkedIn.</a></p>
 
-		<!--<h3><a id="contact"></a>Get in Touch <small class="right"><a href="#top">return to top</a></small></h3>
+		<h3><a id="contact"></a>Get in Touch <small class="right"><a href="#top">return to top</a></small></h3>
 		
 		<form id="contactform" name="contact" action="contact.php" method="post">
 			<fieldset>
 				<p>My <label for="txt-name" id="name_label">name</label> is <input type="text" placeholder="name" required="required" value="" name="name" id="txt-name">, and my <label for="txt-email" id="email_label">email address</label> is&nbsp;<input type="email" placeholder="you@email.com" required="required" value="" name="email" id="txt-email">.</p>
+				<p>I can prove that I am human because I can do math: 3 + 6 = 
+				<input name="human" id="num-human" required="required" pattern="9" title="answer the math problem">
 				<p><label for="more-info">I have to tell you this</label>:</p>
 
 				<p><textarea cols="30" rows="8" name="message" id="more-info" required="required"></textarea></p>
@@ -255,10 +260,11 @@
 		
 			<label class="error" for="txt-name" id="name_error">Your name is required.</label>
 			<label class="error" for="txt-email" id="email_error">Your email address is required.</label>
+			<label class="error" for="num-human" id="email_error">Please prove that your are human in order to submit this message.</label>
 			<label class="error" for="more-info" id="message_error">Please add a message.</label>
 
 			<input type="submit" value="Send your message!" name="sendit" class="contactAmy" id="btn-submit" />
-		</form>-->
+		</form>
 
 	</main>
 	
