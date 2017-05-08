@@ -20,7 +20,7 @@
 
     <title>Amy Dalrymple | Digital Designer/Developer | Minneapolis, MN</title>
 	<meta name="description" content="Amy Dalrymple is a digital designer/developer from Minneapolis, MN." />
-	<meta name="keywords" content="front end developer, website development, minneapolis, digital, interactive, designer" />	
+	<meta name="keywords" content="front end developer, website development, minneapolis, digital, interactive, designer, twin cities" />	
 
      <!-- Twitter Card data -->
     <meta name="twitter:card" value="summary">
