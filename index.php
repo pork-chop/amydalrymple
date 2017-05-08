@@ -20,7 +20,7 @@
 
     <title>Amy Dalrymple | Digital Designer/Developer | Minneapolis, MN</title>
 	<meta name="description" content="Amy Dalrymple is a digital designer/developer from Minneapolis, MN." />
-	<meta name="keywords" content="front-end, front end, developer, development, website, minneapolis, digital, interactive, designer" />	
+	<meta name="keywords" content="front end developer, website development, minneapolis, digital, interactive, designer" />	
 
      <!-- Twitter Card data -->
     <meta name="twitter:card" value="summary">
@@ -260,7 +260,7 @@
 		
 			<label class="error" for="txt-name" id="name_error">Your name is required.</label>
 			<label class="error" for="txt-email" id="email_error">Your email address is required.</label>
-			<label class="error" for="num-human" id="email_error">Please prove that your are human in order to submit this message.</label>
+			<label class="error" for="num-human" id="human_error">Please prove that your are human in order to submit this message.</label>
 			<label class="error" for="more-info" id="message_error">Please add a message.</label>
 
 			<input type="submit" value="Send your message!" name="sendit" class="contactAmy" id="btn-submit" />
