@@ -61,12 +61,19 @@
 	
 	<main id="content">
 
-		<h3><a id="work"></a>Previous Work <small class="right"><a href="#top">return to top</a></small></h3>
+		<h3><a id="work"></a>Previous Work</h3>
 		<dl class="works">
+			<dt><a href="http://thoughtforfood.jtmega.com" target="_blank">JT Mega's Thought for Food&trade;</a> website</dt>
+			<dd>
+				<img src="/img/work_jtm-thought-for-food.png" alt="JT Mega Thought for Food">
+				Launched: June 2017<br>
+				Role: Front-End Developer<br>
+				Specs: Wordpress, Sass, Custom Theme, Custom Widgets</dd>
+
 			<dt style="display: none;"><a href="http://americanpublicmediagroup.org" target="_blank">American Public Media Group</a> website</dt>
 			<dd style="display: none;>
 				<img src="/img/work_apmg.png" alt="American Public Media Group website">
-				Launched: June 2016<br>
+				Launched: June 2015<br>
 				Role: Front-End Developer<br>
 				Specs: Rails, Sass</dd>
 
@@ -105,14 +112,14 @@
 				Role: Designer, Tech Lead<br>
 				Specs: Wordpress, Genesis Theme, Sass</dd>
 
-			<dt><a href="http://topcoast.mprnews.org/">Top Coast Festival</a> website</dt>
+			<dt><a href="http://topcoast.mprnews.org/" target="_blank">Top Coast Festival</a> website</dt>
 			<dd>
 				<img src="/img/work_topcoast.png" alt="Top Coast Festival website">
 				Launched: January 2014<br>
 				Role: Designer, Developer<br>
 				Specs: PHP</dd>
 
-			<dt><a href="https://www.solutran.com/s3healthysavings/" target="_blank">S3 Healthy Savings webpage</a></dt>
+			<dt>S3 Healthy Savings webpage</dt>
 			<dd>
 				<img src="/img/work_s3health.png" alt="S3 Healthy Savings webpage">
 				Launched: 2013<br>
@@ -149,11 +156,12 @@
 				<ul>
 					<li>HTML5, CSS/Sass, JavaScript (jQuery), PHP, ASP.NET, Liquid</li>
 					<li>CMS systems (Wordpress, Sitefinity, Shopify, Memberize)</li>
-					<li>Responsive HTML email (Eloqua, ExactTarget, MailChimp, Litmus)</li>
+					<li>Responsive HTML email (MailChimp, Litmus, Eloqua, ExactTarget, Constant Contact, Emma)</li>
 					<li>Adobe Creative Suite CC (Photoshop, Illustrator, Dreamweaver, and InDesign)</li>
 					<li>Sublime Text, BBEdit/TextWrangler</li>
 					<li>Github</li>
-					<li>Apple iWork Suite (Pages, Numbers, Keynote)
+					<li>E-marketing systems (InfusionSoft, Ontraport)
+					<li>Apple iWork Suite (Pages, Numbers, Keynote)</li>
 					<li>Microsoft Office Suite (Outlook/Entourage, Word, Excel, and PowerPoint)</li>
 				</ul>
 			</dd>
