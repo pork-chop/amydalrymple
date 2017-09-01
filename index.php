@@ -98,7 +98,7 @@
 				Role: Designer, Developer<br>
 				Specs: PHP, Sass</dd>
 
-			<dt><a href="http://www.publicradiocustomtravel.org/" target="_blank">Public Radio Custom Travel</a> website</dt>
+			<dt>Public Radio Custom Travel website</dt>
 			<dd>
 				<img src="/img/work_prct.png" alt="Public Radio Custom Travel website">
 				Launched: September 2014<br>
@@ -252,7 +252,7 @@
 		<h3><a id="more"></a><a id="more"></a>Learn More <small class="right"><a href="#top">return to top</a></small></h3>
 		<p>Amy lives in Minneapolis, Minnesota with her husband and their three cats (Siofra, Ellipses, and Ampersand). She enjoys knitting, photography, and new adventures. She can still speak a little bit of German.</p>
 		<p>Amy is a self-motivated and adaptable front-end web developer. She strives to learn something new every day. Her passion is in building standards-compliant and modern websites that provide the best experience for any potential user. She always feels like a genius when she can get a tricky bit of JavaScript to work the way she wants, but she gets the most geeky about how amazing CSS is.
-		<p>Amy <a href="https://twitter.com/pork_chop">prefers Twitter</a> over Facebook and has <a href="http://pork-chop.org/blog/">an infrequently updated blog</a>. She can also be <a href="https://www.linkedin.com/in/amydalrymple">found on LinkedIn.</a></p>
+		<p>Amy <a href="https://twitter.com/pork_chop">prefers Twitter</a> over Facebook and has <a href="http://pork-chop.org/">an infrequently updated blog</a>. She can also be <a href="https://www.linkedin.com/in/amydalrymple">found on LinkedIn.</a></p>
 
 		<h3><a id="contact"></a>Get in Touch <small class="right"><a href="#top">return to top</a></small></h3>
 		
