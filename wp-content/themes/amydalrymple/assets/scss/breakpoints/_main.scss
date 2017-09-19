@@ -1,6 +1,30 @@
 /* main */
 
 /*--------------------------------------------------------------
+# Header and Footer
+--------------------------------------------------------------*/
+header, footer {
+	color: $white;
+	text-align: center;
+
+	a, a:visited { color: $white; }
+}
+
+header {
+	background-color: $darkBlue;
+
+	h2 { font-weight: 400; }
+
+	.site-branding {
+		padding: 1rem;
+	}
+}
+
+footer {
+	background-color: darken( $white, 30% );
+}
+
+/*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
 .alignleft {
@@ -92,6 +116,17 @@
 	margin: 0 0 1.5em;
 }
 
+body.blog main {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+	grid-gap: 1rem;
+}
+
+article {
+
+	header { background-color: transparent; color: inherit; }
+}	
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -140,6 +175,7 @@ object {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
+	max-width: 150px;
 }
 
 /*--------------------------------------------------------------

@@ -1,15 +1,18 @@
 /* links */
 
 a {
-	color: royalblue;
+	color: $link;
+	text-decoration-skip: ink;
+
+	h1 &, h2 &, h3 &, h4 & { text-decoration: none; }
 }
 
 a:visited {
-	color: purple;
+	color: $link;
 }
 
 a:hover, a:focus, a:active {
-	color: midnightblue;
+	color: $linkHover;
 }
 
 a:focus {

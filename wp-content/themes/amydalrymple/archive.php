@@ -10,7 +10,6 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
 
 		<?php
 		if ( have_posts() ) : ?>
@@ -21,6 +20,7 @@ get_header(); ?>
 					the_archive_description( '<div class="archive-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
+			<main id="main" class="site-main">
 
 			<?php
 			/* Start the Loop */
